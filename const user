@@ -1,0 +1,5 @@
+ const user_input = prompt("Выберите карту для хода (введите номер от 1 до 6) или 'q' для выхода:");
+      if (user_input.toLowerCase() === 'q') {
+        console.log("Вы вышли из игры. До свидания!");
+        break;
+      }
